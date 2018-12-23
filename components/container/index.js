@@ -2,7 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import classNames from "classnames";
 
-const Container = ({ dark, title, rounded }, ...props) => {
+const Container = props => {
+  const { dark, title, rounded } = props;
   const className = classNames("nes-container", {
     "is-dark": dark,
     "with-title": !!title,
