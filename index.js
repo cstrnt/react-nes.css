@@ -1,8 +1,5 @@
+import Container from "./components/container";
+
 module.exports = {
-    plus: (a, b) => {
-        return a + b
-    },
-    minus: (a, b) => {
-        return a - b;
-    }
-}
+  Container
+};
