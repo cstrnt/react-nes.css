@@ -8,8 +8,4 @@ const Radio = props => {
   );
 };
 
-Container.propTypes = {};
-
-Container.defaultProps = {};
-
 export default Radio;

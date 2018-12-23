@@ -12,10 +12,8 @@ const Button = props => {
   );
 };
 
-Container.propTypes = {
+Button.propTypes = {
   color: PropTypes.oneOf(["primary", "success", "warning", "error", "disabled"])
 };
-
-Container.defaultProps = {};
 
 export default Button;
