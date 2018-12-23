@@ -12,7 +12,7 @@ const Container = props => {
   return (
     <div className={className} {...props}>
       {title && <p className="title">{title}</p>}
-      <p>{props.children}</p>
+      {props.children && <p>{props.children}</p>}
     </div>
   );
 };
@@ -20,7 +20,8 @@ const Container = props => {
 Container.propTypes = {
   dark: PropTypes.bool,
   title: PropTypes.string,
-  rounded: PropTypes.bool
+  rounded: PropTypes.bool,
+  children: PropTypes.object
 };
 
 Container.defaultProps = {
