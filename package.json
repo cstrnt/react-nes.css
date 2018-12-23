@@ -1,6 +1,6 @@
 {
     "name": "@cstrnt/react-nes.css",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": "The React port of the nes.css css framework",
     "license": "MIT",
     "repository": "frexeptabel/react-nes.css",
