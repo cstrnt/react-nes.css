@@ -8,10 +8,12 @@ const Container = ({ dark, title, rounded }, ...props) => {
     "with-title": !!title,
     "is-rounded": rounded
   });
-  <div className={className} {...props}>
-    {title && <p className="title">{title}</p>}
-    <p>{props.children}</p>
-  </div>;
+  return (
+    <div className={className} {...props}>
+      {title && <p className="title">{title}</p>}
+      <p>{props.children}</p>
+    </div>
+  );
 };
 
 Container.propTypes = {
