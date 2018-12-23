@@ -12,7 +12,7 @@ const Container = props => {
   return (
     <div className={className} {...props}>
       {title && <p className="title">{title}</p>}
-      {props.children && <p>{props.children}</p>}
+      {props.children}}
     </div>
   );
 };
