@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Table should be rendered properly 1`] = `
+<table
+  className="nes-table"
+/>
+`;
+
+exports[`The Table should be rendered properly with props 1`] = `
+<table
+  className="nes-table is-bordered"
+/>
+`;
+
+exports[`The Table should be rendered properly with props 2`] = `
+<table
+  className="nes-table is-centered"
+/>
+`;
+
+exports[`The Table should be rendered properly with props 3`] = `
+<table
+  className="nes-table is-dark"
+/>
+`;
+
+exports[`The Table should be rendered properly with props 4`] = `
+<table
+  className="nes-table is-bordered is-centered is-dark"
+/>
+`;

@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Icon should adapt to its props 1`] = `
+<i
+  className="nes-icon like is-small"
+/>
+`;
+
+exports[`The Icon should adapt to its props 2`] = `
+<i
+  className="nes-icon like is-medium"
+/>
+`;
+
+exports[`The Icon should adapt to its props 3`] = `
+<i
+  className="nes-icon like is-large"
+/>
+`;
+
+exports[`The Icon should adapt to its props 4`] = `
+<i
+  className="nes-icon like is-half"
+/>
+`;
+
+exports[`The Icon should adapt to its props 5`] = `
+<i
+  className="nes-icon like is-empty"
+/>
+`;
+
+exports[`The Icon should adapt to its props 6`] = `
+<i
+  className="nes-icon like transparent"
+/>
+`;
+
+exports[`The Icon should be rendered properly 1`] = `
+<i
+  className="nes-icon like"
+/>
+`;

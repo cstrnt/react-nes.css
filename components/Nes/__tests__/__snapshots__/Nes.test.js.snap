@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Nes should be rendered properly 1`] = `
+<i
+  className="undefinednes-logo"
+/>
+`;
+
+exports[`The Nes should be rendered properly with snes prop 1`] = `
+<i
+  className="snes-logo"
+/>
+`;

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Progress should be rendered properly 1`] = `
+<progress
+  className="nes-progress"
+  max="100"
+  value="90"
+/>
+`;
+
+exports[`The Progress should be rendered properly with props 1`] = `
+<progress
+  className="nes-progress is-success"
+  max="100"
+  value="90"
+/>
+`;

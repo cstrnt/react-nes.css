@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Balloon should adapt to its props 1`] = `
+<div
+  className="nes-balloon from-right"
+/>
+`;
+
+exports[`The Balloon should be rendered properly 1`] = `
+<div
+  className="nes-balloon from-left"
+/>
+`;

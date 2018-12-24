@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The List should be rendered properly 1`] = `
+<ul
+  className="nes-list is-disc"
+>
+  <ul>
+    1
+  </ul>
+  <ul>
+    2
+  </ul>
+</ul>
+`;
+
+exports[`The List should be rendered properly 2`] = `
+<ul
+  className="nes-list is-circle"
+/>
+`;
