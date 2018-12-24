@@ -5,6 +5,9 @@
     "license": "MIT",
     "repository": "frexeptabel/react-nes.css",
     "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
     "keywords": [
         "react",
         "nes.css",
@@ -15,5 +18,12 @@
         "prop-types": "^15.6.2",
         "react": "^16.7.0",
         "react-dom": "^16.7.0"
+    },
+    "devDependencies": {
+        "babel-jest": "^23.6.0",
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-react": "^6.24.1",
+        "jest": "^23.6.0",
+        "react-test-renderer": "^16.7.0"
     }
 }

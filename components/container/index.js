@@ -24,9 +24,5 @@ Container.propTypes = {
   children: PropTypes.object
 };
 
-Container.defaultProps = {
-  dark: false,
-  rounded: false
-};
 
 export default Container;
