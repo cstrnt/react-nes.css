@@ -2,8 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import classNames from "classnames";
 
-const Container = props => {
-  const { dark, title, rounded } = props;
+const Container = ({ dark, title, rounded, ...props }) => {
   const className = classNames("nes-container", {
     "is-dark": dark,
     "with-title": !!title,
@@ -20,9 +19,7 @@ const Container = props => {
 Container.propTypes = {
   dark: PropTypes.bool,
   title: PropTypes.string,
-  rounded: PropTypes.bool,
-  children: PropTypes.object
+  rounded: PropTypes.bool
 };
-
 
 export default Container;

@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Avatar should adapt to the rounded prop 1`] = `
+<img
+  className="nes-avatar is-rounded"
+  src="https://www.gravatar.com/avatar"
+/>
+`;
+
+exports[`The Avatar should adapt to the size prop 1`] = `
+<img
+  className="nes-avatar is-small"
+  src="https://www.gravatar.com/avatar"
+/>
+`;
+
+exports[`The Avatar should adapt to the size prop 2`] = `
+<img
+  className="nes-avatar is-medium"
+  src="https://www.gravatar.com/avatar"
+/>
+`;
+
+exports[`The Avatar should adapt to the size prop 3`] = `
+<img
+  className="nes-avatar is-large"
+  src="https://www.gravatar.com/avatar"
+/>
+`;
+
+exports[`The Avatar should be rendered properly 1`] = `
+<img
+  className="nes-avatar"
+  src="https://www.gravatar.com/avatar"
+/>
+`;

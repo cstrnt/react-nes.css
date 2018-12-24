@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Button should be rendered properly 1`] = `
+<button
+  className="nes-btn"
+>
+  Test
+</button>
+`;
+
+exports[`The Button should take the color property 1`] = `
+<button
+  className="nes-btn is-success"
+>
+  Test
+</button>
+`;
+
+exports[`The Button should take the color property 2`] = `
+<button
+  className="nes-btn is-warning"
+>
+  Test
+</button>
+`;
+
+exports[`The Button should take the color property 3`] = `
+<button
+  className="nes-btn is-success"
+>
+  Test
+</button>
+`;
+
+exports[`The Button should take the color property 4`] = `
+<button
+  className="nes-btn is-primary"
+>
+  Test
+</button>
+`;
+
+exports[`The Button should take the color property 5`] = `
+<button
+  className="nes-btn is-error"
+>
+  Test
+</button>
+`;
+
+exports[`The Button should take the color property 6`] = `
+<button
+  className="nes-btn is-disabled"
+>
+  Test
+</button>
+`;

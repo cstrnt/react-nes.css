@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Container should be rendered properly 1`] = `
+<div
+  className="nes-container"
+>
+  Test
+</div>
+`;
+
+exports[`The Container should react to its props 1`] = `
+<div
+  className="nes-container is-dark"
+>
+  Test
+</div>
+`;
+
+exports[`The Container should react to its props 2`] = `
+<div
+  className="nes-container is-rounded"
+>
+  Test
+</div>
+`;
+
+exports[`The Container should react to its props 3`] = `
+<div
+  className="nes-container with-title"
+>
+  <p
+    className="title"
+  >
+    Hallo
+  </p>
+  Test
+</div>
+`;

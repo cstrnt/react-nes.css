@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Radio should be rendered properly 1`] = `
+<input
+  className="nes-radio"
+  type="radio"
+/>
+`;
