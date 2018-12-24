@@ -1,29 +1,35 @@
 {
-    "name": "@cstrnt/react-nes.css",
-    "version": "2.0.0",
-    "description": "The React port of the nes.css css framework",
-    "license": "MIT",
-    "repository": "frexeptabel/react-nes.css",
-    "main": "index.js",
-    "scripts": {
-        "test": "jest"
-    },
-    "keywords": [
-        "react",
-        "nes.css",
-        "frexeptabel"
-    ],
-    "dependencies": {
-        "classnames": "^2.2.6",
-        "prop-types": "^15.6.2",
-        "react": "^16.7.0",
-        "react-dom": "^16.7.0"
-    },
-    "devDependencies": {
-        "babel-jest": "^23.6.0",
-        "babel-preset-env": "^1.7.0",
-        "babel-preset-react": "^6.24.1",
-        "jest": "^23.6.0",
-        "react-test-renderer": "^16.7.0"
-    }
+  "name": "@cstrnt/react-nes.css",
+  "version": "2.0.0",
+  "description": "The React port of the nes.css css framework",
+  "license": "MIT",
+  "repository": "frexeptabel/react-nes.css",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "styleguide": "styleguidist server",
+    "styleguide:build": "styleguidist build"
+  },
+  "keywords": [
+    "react",
+    "nes.css",
+    "frexeptabel"
+  ],
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-jest": "^23.6.0",
+    "babel-loader": "^8.0.4",
+    "jest": "^23.6.0",
+    "react-styleguidist": "^8.0.6",
+    "react-test-renderer": "^16.7.0",
+    "webpack": "^4.28.2"
+  }
 }
