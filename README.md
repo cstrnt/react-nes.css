@@ -1,7 +1,6 @@
 # react-nes.css
 
 [![](https://img.shields.io/bundlephobia/min/react.svg)](https://www.npmjs.com/package/@cstrnt/react-nes.css)
-
 [![](https://img.shields.io/bundlephobia/min/@cstrnt/react-nes.css.svg)](https://www.npmjs.com/package/@cstrnt/react-nes.css)
 
 # Info
@@ -10,7 +9,7 @@ This is an unoffical react port of the [NES.css](https://github.com/nostalgic-cs
 
 # Installation
 
-Install react-nes.css and its dependencies using:
+Install [react-nes.css](https://www.npmjs.com/package/@cstrnt/react-nes.css) and its dependencies using:
 
 ### NPM
 
