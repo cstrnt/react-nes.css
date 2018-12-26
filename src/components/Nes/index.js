@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const Nes = ({ character, snes, ...props }) => {
-  const className = `${snes && "s"}nes-${character}`;
+  const className = `${snes ? "s" : ""}nes-${character}`;
   return <i className={className} {...props} />;
 };
 
