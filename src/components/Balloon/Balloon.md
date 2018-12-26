@@ -1,6 +1,6 @@
 Balloon example:
 
 ```js
-<Balloon>Hallo</Balloon>
-<Balloon direction="right">Hallo</Balloon>
+<Balloon>Hello</Balloon>
+<Balloon direction="right">Hello</Balloon>
 ```
