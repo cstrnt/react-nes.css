@@ -2,7 +2,7 @@
 
 exports[`The Nes should be rendered properly 1`] = `
 <i
-  className="undefinednes-logo"
+  className="nes-logo"
 />
 `;
 
