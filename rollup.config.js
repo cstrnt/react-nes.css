@@ -1,7 +1,6 @@
 import resolve from 'rollup-plugin-node-resolve';
 import babel from 'rollup-plugin-babel';
 import commonjs from 'rollup-plugin-commonjs';
-import { uglify } from 'rollup-plugin-uglify';
 
 module.exports = {
   input: 'index.js',
@@ -17,6 +16,5 @@ module.exports = {
       jsnext: true,
     }),
     commonjs(),
-    uglify(),
   ],
 };
