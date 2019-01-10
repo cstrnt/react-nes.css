@@ -8,7 +8,10 @@
   "scripts": {
     "test": "jest",
     "styleguide": "styleguidist server",
-    "styleguide:build": "styleguidist build"
+    "styleguide:build": "styleguidist build",
+    "build": "rollup -c",
+    "prepublish": "yarn && yarn test",
+    "publish": "yarn version minor && yarn publish"
   },
   "keywords": [
     "react",
@@ -34,6 +37,11 @@
     "react-styleguidist": "^8.0.6",
     "react-test-renderer": "^16.7.0",
     "regenerator-runtime": "^0.13.1",
+    "rollup": "^1.1.0",
+    "rollup-plugin-babel": "^4.2.0",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-uglify": "^6.0.0",
     "style-loader": "^0.23.1",
     "webpack": "^4.28.2"
   }
