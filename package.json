@@ -4,11 +4,12 @@
   "description": "The React port of the nes.css css framework",
   "license": "MIT",
   "repository": "frexeptabel/react-nes.css",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "jest",
     "styleguide": "styleguidist server",
-    "styleguide:build": "styleguidist build"
+    "styleguide:build": "styleguidist build",
+    "build": "babel src --out-dir lib/src --ignore src/**/__tests__/ && babel index.js --out-dir lib"
   },
   "keywords": [
     "react",
@@ -22,6 +23,7 @@
     "react-dom": "^16.7.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.2.3",
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.2.3",
     "@babel/preset-react": "^7.0.0",
