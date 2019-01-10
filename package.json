@@ -1,17 +1,15 @@
 {
   "name": "@cstrnt/react-nes.css",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "description": "The React port of the nes.css css framework",
   "license": "MIT",
   "repository": "frexeptabel/react-nes.css",
-  "main": "dist/index.js",
+  "main": "dist/bundle.js",
   "scripts": {
     "test": "jest",
     "styleguide": "styleguidist server",
     "styleguide:build": "styleguidist build",
-    "build": "rollup -c",
-    "prepublish": "yarn && yarn test",
-    "publish": "yarn version minor && yarn publish"
+    "build": "rollup -c"
   },
   "keywords": [
     "react",
